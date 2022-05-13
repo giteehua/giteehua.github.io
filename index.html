@@ -32,43 +32,6 @@
         <i class="fa fa-list btn-mobile-menu__icon"></i>
         <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
-    
-<!-- 时间函数 
-     <script language=javascript>
-        function siteTime(){
-          window.setTimeout("siteTime()", 1000);
-          var seconds = 1000;
-          var minutes = seconds * 60;
-          var hours = minutes * 60;
-          var days = hours * 24;
-          var years = days * 365;
-          var today = new Date();
-          var todayYear = today.getFullYear();
-          var todayMonth = today.getMonth()+1;
-          var todayDate = today.getDate();
-          var todayHour = today.getHours();
-          var todayMinute = today.getMinutes();
-          var todaySecond = today.getSeconds();
-          /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
-          year - 作为date对象的年份，为4位年份值
-          month - 0-11之间的整数，做为date对象的月份
-          day - 1-31之间的整数，做为date对象的天数
-          hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
-          minutes - 0-59之间的整数，做为date对象的分钟数
-          seconds - 0-59之间的整数，做为date对象的秒数
-          microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-          var t1 = Date.UTC(2021,06,25,08,30,00); //北京时间2017-09-16 00:00:00创建网站的时间
-          var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
-          var diff = t2-t1;
-          var diffYears = Math.floor(diff/years);
-          var diffDays = Math.floor((diff/days)-diffYears*365);
-          var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
-          var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
-          var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-          document.getElementById("sitetime").innerHTML=+diffYears*365+diffDays+"天"+diffHours+"时"+diffMinutes+"分钟"+diffSeconds+"秒";
-        }
-        siteTime(); 
-</script>
     <!-- 随机选取背景图片 -->
     <script type="text/javascript">
 	//<!CDATA[
@@ -138,7 +101,7 @@
         </div>
 		<!-- 底部年份动态化 + 隐私声明 -->
 		<footer class="footer">
-		<p>&copy; <script>document.write(new Date().getFullYear())</script> <a style="TEXT-DECORATION: none" href=".\privacy.html" rel="nofollow" target="_blank"><font color="#b3b3b3">COPYRIGHT CHENGHUA </font></a> <br> <a style="TEXT-DECORATION: none"  rel="nofollow"  target="_blank"><font color="#b3b3b3">  <font color="#b3b3b3">THE WEBSITE IS ALREADY OPERATING SAFELY :<span id="sitetime"  style="color: #3f7fe0;" ></span></font>
+		<p>&copy; <script>document.write(new Date().getFullYear())</script> <a style="TEXT-DECORATION: none" href=".\privacy.html" rel="nofollow" 
 <!--This site is already operating safely-->
 </font></a></p>
 		</footer>
@@ -228,124 +191,5 @@
         }
     }())
 </script>
-
-<!--雪花飘落-->
-<!--<canvas id="Snow" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 99999;background: rgba(125,137,95,0.1);pointer-events: none;"></canvas>
-<script>
-    if(true){
-        (function() {
-            var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame ||
-            function(callback) {
-                window.setTimeout(callback, 1000 / 60);
-            };
-            window.requestAnimationFrame = requestAnimationFrame;
-        })();
-         
-        (function() {
-            var flakes = [],
-                canvas = document.getElementById("Snow"),
-                ctx = canvas.getContext("2d"),
-                flakeCount = 200,
-                mX = -100,
-                mY = -100;
-             
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-             
-            function snow() {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-             
-                for (var i = 0; i < flakeCount; i++) {
-                    var flake = flakes[i],
-                        x = mX,
-                        y = mY,
-                        minDist = 150,
-                        x2 = flake.x,
-                        y2 = flake.y;
-             
-                    var dist = Math.sqrt((x2 - x) * (x2 - x) + (y2 - y) * (y2 - y)),
-                        dx = x2 - x,
-                        dy = y2 - y;
-             
-                    if (dist < minDist) {
-                        var force = minDist / (dist * dist),
-                            xcomp = (x - x2) / dist,
-                            ycomp = (y - y2) / dist,
-                            deltaV = force / 2;
-             
-                        flake.velX -= deltaV * xcomp;
-                        flake.velY -= deltaV * ycomp;
-             
-                    } else {
-                        flake.velX *= .98;
-                        if (flake.velY <= flake.speed) {
-                            flake.velY = flake.speed                        }
-                        flake.velX += Math.cos(flake.step += .05) * flake.stepSize;
-                    }
-             
-                    ctx.fillStyle = "rgba(255,255,255," + flake.opacity + ")";
-                    flake.y += flake.velY;
-                    flake.x += flake.velX;
-                         
-                    if (flake.y >= canvas.height || flake.y <= 0) {
-                        reset(flake);
-                    }
-             
-                    if (flake.x >= canvas.width || flake.x <= 0) {
-                        reset(flake);
-                    }
-             
-                    ctx.beginPath();
-                    ctx.arc(flake.x, flake.y, flake.size, 0, Math.PI * 2);
-                    ctx.fill();
-                }
-                requestAnimationFrame(snow);
-            };
-             
-            function reset(flake) {
-                flake.x = Math.floor(Math.random() * canvas.width);
-                flake.y = 0;
-                flake.size = (Math.random() * 3) + 2;
-                flake.speed = (Math.random() * 1) + 0.5;
-                flake.velY = flake.speed;
-                flake.velX = 0;
-                flake.opacity = (Math.random() * 0.5) + 0.3;
-            }
-             
-            function init() {
-                for (var i = 0; i < flakeCount; i++) {
-                    var x = Math.floor(Math.random() * canvas.width),
-                        y = Math.floor(Math.random() * canvas.height),
-                        size = (Math.random() * 3) + 2,
-                        speed = (Math.random() * 1) + 0.5,
-                        opacity = (Math.random() * 0.5) + 0.3;
-             
-                    flakes.push({
-                        speed: speed,
-                        velY: speed,
-                        velX: 0,
-                        x: x,
-                        y: y,
-                        size: size,
-                        stepSize: (Math.random()) / 30 * 1,
-                        step: 0,
-                        angle: 180,
-                        opacity: opacity                    });
-                }
-             
-                snow();
-            };
-             
-            document.addEventListener("mousemove", function(e) {
-                mX = e.clientX,
-                mY = e.clientY            });
-            window.addEventListener("resize", function() {
-                canvas.width = window.innerWidth;
-                canvas.height = window.innerHeight;
-            });
-            init();
-        })();
-    }
-</script>-->
 </body>
 </html>
