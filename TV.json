@@ -76,13 +76,23 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		 {
+            "key": "Bili",
+            "name": "Bili(SP)",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/json/bilibili.json"
         }
     ],
       "lives": [
         {
             "name": "live",
             "type": 0,
-            "url": "https://ghproxy.com/https://raw.githubusercontent.com/dxawi/1/main/tvlive.txt",
+            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         }
     ],
@@ -90,7 +100,7 @@
         {
             "name": "Demo",
             "type": 3,
-            "url": "https://okjx.cc/?url="
+            "url": "Demo"
         },
         {
             "name": "Web",
@@ -159,9 +169,9 @@
         {
         "name": "Parwix",
         "type": 0,
-        "url": "https://jx.bozrc.com:4433/player/?url="
+        "url": "https://jx.ccabc.cc/byg/?url="
         },
-        {"name":"lanlan","type":1,"url":"http://lanlan.ckflv.cn/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}}
+        {"name":"okjx","type":1,"url":"https://okjx.cc/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}}
     ],
     "flags":[
 "youku",
