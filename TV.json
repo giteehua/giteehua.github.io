@@ -76,16 +76,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-		 {
-            "key": "Bili",
-            "name": "Bili(SP)",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/kebedd69/TVbox-interface/main/json/bilibili.json"
         }
     ],
       "lives": [
