@@ -50,26 +50,6 @@
             "ext": "https://www.555dyy1.com"
         },
         {
-            "key": "csp_Yht",
-            "name": "野花",
-            "type": 3,
-            "api": "csp_Yht",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://yehetang.cc"
-        },
-        {
-            "key": "csp_fantuan",
-            "name": "饭团",
-            "type": 3,
-            "api": "csp_Fantuan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.fantuanhd.com"
-        },
-        {
             "key": "csp_Vofl",
             "name": "乐视",
             "type": 3,
@@ -100,7 +80,7 @@
         }, 
         {
             "key": "csp_Ysgc",
-            "name": "工厂",
+            "name": "影视",
             "type": 3,
             "api": "csp_Ysgc",
             "searchable": 1,
@@ -126,15 +106,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
-        },
-        {
-            "key": "csp_panghu",
-            "name": "胖虎",
-            "type": 3,
-            "api": "csp_Panghu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "LiteApple",
@@ -333,17 +304,17 @@
             "url": "Web"
         },
         {
-            "name": "ok",
+            "name": "IQIYI",
             "type": 1,
             "url": "https://okjx.cc/?url="
         },
         {
-            "name": "33",
+            "name": "MGTV",
             "type": 1,
             "url": "https://jiexi.parses.repl.co/api.php?url="
         },
         {
-      "name": "xmflv",
+      "name": "XMTV",
       "type": 0,
       "url": "https://jx.xmflv.com/?url=",
       "ext": {
@@ -370,7 +341,7 @@
       }
     },
     {
-      "name": "ckmov",
+      "name": "CKTV",
       "type": 0,
       "url": "https://www.ckmov.com/?url=",
       "ext": {
@@ -397,9 +368,9 @@
       }
     },
         {
-        "name": "777",
+        "name": "Parwix",
         "type": 0,
-        "url": "https://jx.777jiexi.com/player/?url="
+        "url": "https://jx.bozrc.com:4433/player/?url="
         },
         {"name":"lanlan","type":1,"url":"http://lanlan.ckflv.cn/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}}
     ],
