@@ -32,27 +32,27 @@
 		{
             "key": "csp_555",
             "name": "奇艺",
-            "type": 3,
-            "api": "csp_Ys555",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.555dyy1.com"
+            "type":3,
+            "api":"csp_AppYsV2",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "ext":"http://longfei.lfytyl.com/api.php/app/"
         },
         {
             "key": "csp_AppTT",
             "name": "土豆",
             "type": 3,
-            "api": "csp_AppTT",
+            "api": "csp_YQKAPP",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://103.239.101.244:6677/$$$U1JLI2UlNFVZdFUjS2lFbyp2c1BxcHIwY0M0YnhBUVc=$$$bzZzWW1tKng1aG4jcmNDdA=="
+            "ext": "https://api-aws.11ty.top"
         },
         {
             "key": "csp_Vofl",
             "name": "乐视",
-            "type": 3,
+        	"type": 3,
             "api": "csp_Voflix",
             "searchable": 1,
             "quickSearch": 1,
@@ -78,13 +78,14 @@
             "filterable": 1
         },
 		{
-			"key":"csp_Bttoo",
-			"name":"快播",
-			"type":3,
-			"api":"csp_Bttwoo",
-			"searchable":1,
-			"quickSearch":1,
-			"filterable":1},
+	    "key":"csp_Bttoo",
+	    "name":"快播",
+            "type":"0",
+            "api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+            "searchable":"1",
+            "changeable":"1",
+            "categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","香港剧","欧美剧","记录片","台湾剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫"]
+        },
 		{
             "key": "Dm84",
             "name": "樱花",
