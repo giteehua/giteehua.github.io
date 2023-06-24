@@ -11,15 +11,15 @@
             "quickSearch": 1,
             "filterable": 1
         },
-	    {
-            "key": "Qtv",
-            "name": "腾迅",
+	       {
+            "key": "csp_beijihu",
+            "name": "腾讯",
             "type": 3,
-            "api": "csp_Qtv",
+            "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "changeable": 0
+            "ext": "https://www.kuin.one/api.php/app/"
         },
 	 {
             "key": "csp_YQKAPP",
@@ -30,15 +30,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://api-aws.11ty.top"
-        }, 
-	    {
-            "key": "LiteApple",
-            "name": "芒果",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
          {
             "key":"csp_fantuan",
@@ -51,23 +42,14 @@
         },
 	  {
             "key": "csp_AppMr",
-            "name": "风行",
+            "name": "土豆",
             "type": 3,
             "api": "csp_AppMr",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
-	      {
-            "key": "csp_beijihu",
-            "name": "土豆",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.kuin.one/api.php/app/"
-        },
+	
     	{
 	    "key":"csp_Bttoo",
 	    "name":"快播",
