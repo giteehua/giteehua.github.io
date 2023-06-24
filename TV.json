@@ -56,6 +56,16 @@
             "quickSearch": 1,
             "filterable": 1
         },
+	     {
+            "key": "Itv",
+            "name": "土豆",
+            "type": 3,
+            "api": "csp_Itv",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
     	{
 	    "key":"csp_Bttoo",
 	    "name":"快播",
@@ -78,16 +88,11 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://ghproxy.com/https://raw.githubusercontent.com/giteehua/page/master/tvlive.txt",
+            "url": "https://dxawi.github.io/0/tvlive.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         }
     ],
         "parses": [
-        {
-            "name": "Demo",
-            "type": 3,
-            "url": "Demo"
-        },
         {
             "name": "Web",
             "type": 3,
@@ -96,7 +101,7 @@
         {
             "name": "MGTV",
             "type": 1,
-            "url": "http://xn--wnup5g.xn--z7x900a.love:63/Art/analysis.php?v="
+            "url": "https://jx.jsonplayer.com/player/?url="
         },
         {
 		"name": "XMTV",
