@@ -1,15 +1,6 @@
 
 {
     "sites": [ 
-		{
-            "key": "LiteApple",
-            "name": "芒果",
-            "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
 	     {
             "key": "csp_77",
             "name": "优酷",
@@ -37,16 +28,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://api-aws.11ty.top"
-        },  
-        {
-            "key": "csp_AppTT",
-            "name": "土豆",
+        }, 
+	    {
+            "key": "LiteApple",
+            "name": "芒果",
             "type": 3,
-            "api": "csp_YQKAPP",
+            "api": "csp_LiteApple",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://api-aws.11ty.top"
+            "filterable": 1
         },
          {
             "key":"csp_fantuan",
