@@ -68,13 +68,13 @@
         }
     ],
         "parses": [
-        {
-		"name": "Demo",
-		"type": 0,
-		"url": "https://jx.xmflv.com/?url="
-    },
+	 {
+            "name":"Demo",
+            "type":0,
+            "url":"https://jx.xmflv.com/?url=",
+            "ext":{"flag":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","csm3u8","QQ","PPTV","ltnb","rx","CL4K","xfyun","wuduzy","renrenmi","xmm","xigua","m1905","funshion","优酷","芒果","腾讯","爱奇艺","奇艺","哔哩哔哩","哔哩"],"header":{"User-Agent":""}}
+        }
 ],
-	"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","csm3u8","QQ","PPTV","ltnb","rx","CL4K","xfyun","wuduzy","renrenmi","xmm","xigua","m1905","funshion","优酷","芒果","腾讯","爱奇艺","奇艺","哔哩哔哩","哔哩"],
     "ijk": [
         {
             "group": "软解码",
