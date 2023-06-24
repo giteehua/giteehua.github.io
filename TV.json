@@ -31,15 +31,6 @@
             "filterable": 1,
             "ext": "https://api-aws.11ty.top"
         },
-         {
-            "key":"csp_fantuan",
-            "name":"乐视",
-            "type":3,
-            "api":"csp_Fantuan",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
-        },
 	  {
             "key": "csp_AppMr",
             "name": "土豆",
