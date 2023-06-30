@@ -26,7 +26,7 @@
             "name":"爱奇异",
             "type":3,
             "api":"./lib/drpy2.min.js",
-            "ext":"./爱迪.js"
+            "ext":"./about/爱迪.js"
         },
 	 {
             "key": "csp_Lib",
