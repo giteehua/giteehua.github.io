@@ -87,12 +87,7 @@
 	{
             "name": "Web",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url="
-        },
-	{
-            "name":"Xptv",
-            "type":0,
-            "url":"https://jx.zhanlangbu.com/?url="
+            "url": "https://jx.zhanlangbu.com/?url="
         },
 	{
 	    "name": "Cmtv",
