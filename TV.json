@@ -22,14 +22,11 @@
             "ext": "https://dxawi.github.io/1/json/nm.json"
         },
 	 {
-            "key": "csp_YQKAPP",
-            "name": "爱奇艺",
-            "type": 3,
-            "api": "csp_YQKAPP",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://api-aws.11ty.top"
+            "key":"drpy_js_爱迪[V2]",
+            "name":"爱奇异",
+            "type":3,
+            "api":"./lib/drpy2.min.js",
+            "ext":"./爱迪.js"
         },
 	 {
             "key": "csp_Lib",
