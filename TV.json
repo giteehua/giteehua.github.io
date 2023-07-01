@@ -32,16 +32,6 @@
             "ext": "https://aidiapp.xyz/xgapp.php/v2/"
         },
 	 {
-            "key": "csp_Lib",
-            "name": "土豆",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://tv.libvio.cc/"
-        },
-	 {
             "key": "csp_WoGG",
             "name": "云播",
             "type": 3,
