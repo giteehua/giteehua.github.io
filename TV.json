@@ -3,22 +3,13 @@
     "sites": [    
         {
             "key":"drpy_js_豆瓣",
-            "name":"",
+            "name":"TVBox",
             "type":3,
             "api":"https://xhdwc.tk/lib/drpy2.min.js",
             "ext":"https://xhdwc.tk/js/drpy.js",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
-        },
-	{
-            "key":"探探",
-            "name":"芒果",
-            "type":3,
-            "api":"csp_YT",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":0
         },
 	{
             "key": "csp_aidi",
@@ -49,7 +40,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://api-aws.11ty.top"
-        },  
+        }, 
+	{
+            "key":"探探",
+            "name":"芒果",
+            "type":3,
+            "api":"csp_YT",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":0
+        },
 	 {
             "key": "csp_WoGG",
             "name": "云播",
