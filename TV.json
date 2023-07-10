@@ -3,7 +3,7 @@
     "sites": [    
         {
             "key":"drpy_js_豆瓣",
-            "name":"推荐",
+            "name":"",
             "type":3,
             "api":"https://xhdwc.tk/lib/drpy2.min.js",
             "ext":"https://xhdwc.tk/js/drpy.js",
