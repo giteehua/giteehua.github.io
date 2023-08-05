@@ -11,15 +11,16 @@
             "quickSearch": 0,
             "filterable": 0
         },
-	 {
-            "key":"探探",
-            "name":"优酷",
-            "type":3,
-            "api":"csp_YT",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":0
-        },
+	{
+        "key": "csp_77",
+        "name": "优酷",
+        "type": 3,
+        "api": "csp_Kunyu77",
+        "playerType": 1,
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1
+    },
 	{
             "key": "csp_Nmys",
             "name": "腾讯",
